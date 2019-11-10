@@ -1,0 +1,49 @@
+body{
+	background-image: url(../icon/patt.png);
+}
+header{
+	background-color: rgba(202,219,237,0.9);
+	height: 100px;
+}
+ul, li{
+	display: block;
+	/*margin: 0;
+	padding: 0;*/
+	list-style: none;
+}
+.menu li a{
+	display:inline-block;
+	text-align:center;
+}
+.size{
+	width: 143px;
+	font-size: 21px;
+	color:#2c71b8;
+	border-right: 1px solid #2c71b8;
+}
+.src{
+	background-color: transparent;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	border: 1px solid blue;
+	margin-right: 30px;
+	margin-left:30px;
+}
+
+.img-src{
+	position: absolute;
+	right:100px;
+	bottom:22px;
+	text-align:center;
+	background-color: #2c71b8;
+	width: 30px;
+	height: 30px; 
+}
+
+.basket a{
+	text-align:center;
+	background-color: white;
+	width: 40px;
+	height: 40px; 
+}
