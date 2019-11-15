@@ -5,7 +5,8 @@ body{
 	font-family: 'Roboto', sans-serif;
 	background-image: url(../image/patt.png)
 }
-.row:after, .menu:after{
+.row:after, .menu:after, 
+.search:after, .basket:after{
 	content:"";
 	clear:both;
 	display:block;
@@ -73,13 +74,16 @@ body{
 }
 .search{
 	position: relative;
+	float:left;
+	height: 50px;
+	line-height: 55px;
 }
 .search input{
 	background-color: transparent;
 	width: 180px;
 	height: 40px;
 	border: 1px solid #2c71b8;
-	margin-right: 30px;
+	margin-right:30px;
 	margin-left:30px;
 	font-size:21px;
 	font-weight: 300;
@@ -102,12 +106,38 @@ body{
 	background-color: #2c71b8;
 	text-align:center;
 	line-height: 30px;
-	right:88px;
-	bottom:5px;
+	right:35px;
+	bottom:9px;
 }
-.img-backet{
-
+.img-basket{
+	/*display:inline-block;*/
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+.basket a{
+	float:left;
+	width: 40px;
+	height: 40px;
+	background-color: white;
 }	
-.backet a{
-	width: 25%;
+.basket{
+	position: relative;
+	float:left;
+}
+.circle{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #2c71b8;
+	top:-10px;
+	left:-10px;
+}
+.text{
+	font-size: 12px;
+	color:white;
+	position: absolute;
+	top:5px;
+	left:6px;
 }
